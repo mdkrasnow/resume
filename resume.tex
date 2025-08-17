@@ -1,0 +1,138 @@
+\documentclass[letterpaper,10.5pt]{article}
+
+% Packages
+\usepackage[margin=0.75in]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Format section titles with horizontal lines
+\titleformat{\section}
+{\normalfont\bfseries\uppercase}
+{}
+{0em}
+{}
+[\titlerule]
+\titlespacing{\section}{0pt}{8pt}{4pt}
+
+% Custom bullet point style
+\setlist[itemize]{leftmargin=15pt, itemsep=0pt, parsep=0pt, topsep=1pt}
+
+% Hyperref settings
+\hypersetup{
+  colorlinks=true,
+  urlcolor=blue
+}
+
+% Reduce overall line spacing
+\linespread{0.95}
+
+\begin{document}
+
+% Header
+\begin{center}
+  {\LARGE\bfseries{MATTHEW KRASNOW}}\\
+  \vspace{0pt}
+  mkrasnow@college.harvard.edu | 12 Dogwood Road, Bedford, NY 10506 | 914-584-5602
+\end{center}
+
+% Education Section
+\section{Education}
+
+\noindent\textbf{Harvard University} | \textit{Cambridge, MA}
+\begin{itemize}
+  \item Harvard College: Intended Concentrations: Statistics (Machine Learning) and Mathematics \hfill \textbf{May 2027}
+\end{itemize}
+
+\noindent\textbf{Fox Lane High School} | \textit{Bedford, NY} \hfill \textbf{Jun 2023}
+\begin{itemize}
+  \item \textit{Coca-Cola Scholar}: Chosen for outstanding leadership, academics, and dedication to community
+  \item \textit{Leadership}: First Responders Club Co-founder, Science Olympiad President, Fox Academy VP, Class Officer
+\end{itemize}
+
+% Research Section
+\section{Research}
+
+\noindent\textbf{AI Research Consultant} | \textit{World Bank Group} \hfill \textbf{May-Jun 2025}
+\begin{itemize}
+  \item Evaluated AI capabilities for teacher assessment in Peru and Rwanda; manuscript in preparation for publication
+\end{itemize}
+
+\noindent\textbf{Research Scientist Intern, LLM Pipelines} | \textit{Fluently} \hfill \textbf{Jan 2024-Jun 2024}
+\begin{itemize}
+  \item Developed a large language model application in stealth to teach marketable English language skills
+\end{itemize}
+
+\noindent\textbf{Senior Research Fellow} | \textit{New York Medical College | Valhalla, NY} \hfill \textbf{Mar 2020-Aug 2023}
+\begin{itemize}
+  \item Performed longitudinal data analyses of pituitary gland diseases \& abnormalities under Dr. Richard Noto
+  \item Published a first-author research article; discovered the behavior of pituitary lesions that cause endocrine disease
+  \begin{itemize}[label=o]
+    \item Krasnow MD et al. The evolution of pituitary cysts in growth hormone-treated children. Journal of Pediatric Endocrinology and Metabolism. 2022. \href{https://doi.org/10.1515/jpem-2022-0333}{https://doi.org/10.1515/jpem-2022-0333}
+  \end{itemize}
+  \item Published first-author research; identified the safety of GH treatment in children with Chiari malformation
+  \begin{itemize}[label=o]
+    \item Krasnow MD et al. Growth hormone therapy does not impact the development of intracranial hypertension in children with Chiari malformation. Journal of Pediatric Endocrinology and Metabolism. 2024. \href{https://doi.org/10.1515/jpem-2024-0064}{https://doi.org/10.1515/jpem-2024-0064}
+  \end{itemize}
+  \item First-author of abstract and poster published in the \textit{Journal of the Endocrine Society} and presented at ENDO 2022
+  \item Co-author of 7 abstracts published in the \textit{Journal of the Endocrine Society} and presented at ENDO 2021 and 2022
+  \item Studied pituitary volume and growth hormone secretion in siblings — manuscript in preparation for publication
+\end{itemize}
+
+% Professional Experience Section
+\section{Professional Experience}
+
+\noindent\textbf{Co-founder and Chief Technology Officer} | \textit{SwiftScore} \hfill \textbf{Mar 2024-Present}
+\begin{itemize}
+  \item Leverage custom LLMs to help teachers create, administer, and grade assignments
+  \item AI research and full stack web development of \href{http://swiftscore.org}{swiftscore.org} using TypeScript, React, Flask, and Supabase
+  \item Developed \href{https://evalbyswiftscore.com}{evalbyswiftscore.com}, and LLM-powered tool for classroom observations and teacher evaluations
+  \item Reduced evaluation writing time by 93\%, allowing for greater focus on teacher development
+\end{itemize}
+
+\noindent\textbf{Data Consultant} | \textit{Harvard Undergraduate Data Analytics Group} \hfill \textbf{Sep 2023-Jun 2024}
+\begin{itemize}
+  \item Provide meaningful insights to clients using natural language processing via Huggingface Transformers
+  \item Data analysis, visualization, and dashboarding in Python and R
+\end{itemize}
+
+% Public Service Section
+\section{Public Service}
+
+\noindent\textbf{Emergency Medical Technician} | \textit{Westchester EMS | Bedford Fire Department} \hfill \textbf{Jun 2022-Present}
+\begin{itemize}
+  \item Provide immediate lifesaving care to ill and injured patients on over 200 emergencies
+\end{itemize}
+
+\noindent\textbf{Firefighter} | \textit{Bedford Fire Department} \hfill \textbf{Feb 2022-Present}
+\begin{itemize}
+  \item Protect life and property from fire-related hazards, motor vehicle accidents, and natural disasters on over 250 emergencies
+\end{itemize}
+
+\noindent\textbf{Recruit Program Leader} | \textit{Bedford Fire Department} \hfill \textbf{Dec 2019-Jan 2023}
+\begin{itemize}
+  \item Recruited and trained 25+ high school students to become firefighters and EMTs
+\end{itemize}
+
+% Skills Section
+\section{Skills}
+
+\noindent
+\begin{minipage}[t]{0.48\textwidth}
+  \textit{Programming Languages}: Python, R, TypeScript, SQL\\[1pt]
+  \textit{Libraries \& Platforms}: Transformers, React, LMQL, Chainlit, 
+  LlamaIndex, Pandas, NumPy, Matplotlib, Google Cloud 
+  Platform, Docker, Ollama, Huggingface\\[1pt]
+  \textit{Language}: Spanish
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+  \textit{Certifications}: Interior and Exterior Firefighter, Hazardous 
+  Materials First Responder, Emergency Medical Technician 
+  (NREMT), CPR, Firefighter Survival
+\end{minipage}
+
+\end{document}
